@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Beginning Build
+      - ls -la
+      - rm !(one)
+      - ls -la
+      - echo Build Complete
+artifacts:
+  files:
+    - '**/*' 
