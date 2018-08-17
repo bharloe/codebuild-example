@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Beginning Build
       - ls -la
+      - shopt -s extglob
       - rm !(one)
       - ls -la
       - echo Build Complete
